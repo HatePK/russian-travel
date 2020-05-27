@@ -1,0 +1,7 @@
+@media screen and (max-width: 320px) {
+    .footer__nav {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

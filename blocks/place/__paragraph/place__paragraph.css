@@ -1,0 +1,24 @@
+.place__paragraph {
+    max-width: 100%;
+    height: auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        margin: 24px 16px 0;
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 1.62;
+    }
+
+    .place__paragraph:first-child {
+        margin-top: 32px;
+    }
+}
