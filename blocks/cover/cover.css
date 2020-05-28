@@ -1,16 +1,16 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__background/cover__background.css);
 @import url(./__content/cover__content.css);
 
 .cover {
     max-width: 1184px;
     min-height: 740px;
     margin: 92px auto 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../../images/do-baikala.jpg);
+    background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,6 +26,14 @@
         max-width: 768px;
         min-height: 480px;
         margin: 88px auto 0;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .cover {
+        max-width: 432px;
+        min-height: 270px;
+        margin: 64px auto 0;
     }
 }
 

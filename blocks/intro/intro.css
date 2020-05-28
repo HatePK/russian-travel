@@ -7,6 +7,7 @@
     max-width: 690px;
     min-height: 428px;
     margin: 92px 0 0 100px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,14 +18,16 @@
 
 @media screen and (max-width: 768px) {
     .intro {
-        max-width: 720px;
+        max-width: 768px;
         margin: 88px auto 0;
+        padding: 0 24px 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .intro {
-        max-width: 288px;
+        max-width: 425px;
+        padding: 0 16px 0;
         margin: 64px auto 0;
     }
 }
